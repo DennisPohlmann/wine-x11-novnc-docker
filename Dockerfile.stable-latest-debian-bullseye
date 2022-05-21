@@ -9,7 +9,7 @@ ENV OS debian
 ENV OSVER bullseye
 
 RUN dpkg --add-architecture i386 && \
-    apt update && apt install -f -y curl fluxbox gnupg2 net-tools python-is-python3 supervisor tar x11vnc xdotool xvfb && \
+    apt update && apt install -f -y curl fluxbox gnupg2 net-tools procps python-is-python3 supervisor tar x11vnc xdotool xvfb && \
     curl -Lf https://dl.winehq.org/wine-builds/winehq.key -o /usr/share/keyrings/winehq-archive.key && \
     curl -Lf https://dl.winehq.org/wine-builds/${OS}/dists/${OSVER}/winehq-${OSVER}.sources -o /etc/apt/sources.list.d/winehq-${OSVER}.sources && \
     apt update && apt install -f -y winehq-stable && \
