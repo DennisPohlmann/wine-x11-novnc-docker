@@ -5,11 +5,12 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
+ENV OSVER focal
 
 RUN dpkg --add-architecture i386 && \
     apt update && apt install -f -y fluxbox gnupg2 net-tools python-is-python3 supervisor tar wget x11vnc xdotool xvfb && \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key -O /usr/share/keyrings/winehq-archive.key && \
-    wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources -O /etc/apt/sources.list.d/winehq-focal.sources && \
+    wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/${OSVER}/winehq-${OSVER}.sources -O /etc/apt/sources.list.d/winehq-${OSVER}.sources && \
     apt update && apt install -f -y winehq-stable winetricks && \
     apt dist-upgrade -f -y && apt autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/*
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
