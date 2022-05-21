@@ -1,6 +1,5 @@
 ## wine-x11-novnc-docker
 
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/dennispohlmann/wine-x11-novnc-docker/latest)
 ![Docker Pulls](https://img.shields.io/docker/pulls/dennispohlmann/wine-x11-novnc-docker)
 
 Not a very good name, is it?
@@ -19,9 +18,14 @@ This container runs:
 This is a [trusted build](https://registry.hub.docker.com/u/dennispohlmann/wine-x11-novnc-docker/)
 on the Docker Hub.
 
+# Supported tags and respective `Dockerfile` links
+
+-	[`stable-ubuntu-focal-latest`, `stable-ubuntu-20.04-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-focal)
+-	[`stable-debian-bullseye-latest`, `stable-debian-11-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-debian-bullseye)
+
 ## Run It
 
-    docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker
+    docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-ubuntu-focal-latest
     xdg-open http://localhost:8080
 
 In your web browser you should see the default application, explorer.exe:
@@ -37,3 +41,4 @@ wine programs?
 
 * Wine could be optimized a bit
 * Fluxbox could be skinned or reduced
+
