@@ -20,17 +20,22 @@ on the Docker Hub.
 
 # Supported tags and respective `Dockerfile` links
 
--	[`stable-ubuntu-focal-latest`, `stable-ubuntu-20.04-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-focal)
 -	[`stable-debian-bullseye-latest`, `stable-debian-11-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-debian-bullseye)
+-	[`stable-ubuntu-focal-latest`, `stable-ubuntu-20.04-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-focal)
 
 ## Run It
 
-    docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-ubuntu-focal-latest
+    docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-debian-bullseye-latest
     xdg-open http://localhost:8080
 
 In your web browser you should see the default application, explorer.exe:
 
-![Explorer Screenshot](https://raw.githubusercontent.com/dennispohlmann/wine-x11-novnc-docker/master/screenshot.png)
+![Explorer Screenshot](https://raw.githubusercontent.com/dennispohlmann/wine-x11-novnc-docker/master/screenshot.debian.png)
+
+    docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-ubuntu-focal-latest
+    xdg-open http://localhost:8080
+
+![Explorer Screenshot](https://raw.githubusercontent.com/dennispohlmann/wine-x11-novnc-docker/master/screenshot.ubuntu.png)
 
 ## Modifying
 
