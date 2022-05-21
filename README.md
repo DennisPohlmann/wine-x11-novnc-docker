@@ -25,6 +25,7 @@ on the Docker Hub.
 
 ## Run It
 
+### Debian
     docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-debian-bullseye-latest
     xdg-open http://localhost:8080
 
@@ -32,6 +33,7 @@ In your web browser you should see the default application, explorer.exe:
 
 ![Explorer Screenshot](https://raw.githubusercontent.com/dennispohlmann/wine-x11-novnc-docker/master/screenshot.debian.png)
 
+### Ubuntu
     docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-ubuntu-focal-latest
     xdg-open http://localhost:8080
 
