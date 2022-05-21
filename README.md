@@ -11,7 +11,7 @@ This container runs:
 
 * Xvfb - X11 in a virtual framebuffer
 * x11vnc - A VNC server that scrapes the above X11 server
-* [noNVC](https://kanaka.github.io/noVNC/) - A HTML5 canvas vnc viewer
+* [noNVC](https://github.com/novnc/noVNC) - A HTML5 canvas vnc viewer
 * Fluxbox - a small window manager
 * Explorer.exe - to demo that it works
 
