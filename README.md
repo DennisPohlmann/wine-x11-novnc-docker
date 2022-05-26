@@ -20,9 +20,9 @@ on the Docker Hub.
 
 # Supported tags and respective `Dockerfile` links
 
--	[`stable-debian-bullseye-latest`, `stable-debian-11-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-debian-bullseye)
--	[`stable-ubuntu-focal-latest`, `stable-ubuntu-20.04-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-focal)
--	[`stable-fedora-thirty_five-latest`, `stable-fedora-35-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-focal)
+- [`stable-debian-11-latest`, `stable-debian-bullseye-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-debian-11)
+- [`stable-ubuntu-20.04-latest`, `stable-ubuntu-focal-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-20.04)
+- [`stable-fedora-35-latest`, `stable-fedora-thirty_five-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-fedora-35)
 
 ## Run It
 
