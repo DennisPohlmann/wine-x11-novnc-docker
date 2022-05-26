@@ -1,4 +1,4 @@
-## wine-x11-novnc-docker
+# wine-x11-novnc-docker
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/dennispohlmann/wine-x11-novnc-docker)
 
@@ -24,7 +24,7 @@ on the Docker Hub.
 - [`stable-ubuntu-20.04-latest`, `stable-ubuntu-focal-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-20.04)
 - [`stable-fedora-35-latest`, `stable-fedora-thirty_five-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-fedora-35)
 
-## Run It
+# Run It
 
 ### Debian
     docker run --rm -p 8080:8080 dennispohlmann/wine-x11-novnc-docker:stable-debian-11-latest
@@ -46,13 +46,12 @@ In your web browser you should see the default application, explorer.exe:
 
 ![Explorer Screenshot](https://raw.githubusercontent.com/dennispohlmann/wine-x11-novnc-docker/master/screenshot.fedora.png)
 
-## Modifying
+# Modifying
 
 This is a base image. You should fork or use this base image to run your own
 wine programs?
 
-## Issues
+# Issues
 
 * Wine could be optimized a bit
 * Fluxbox could be skinned or reduced
-
