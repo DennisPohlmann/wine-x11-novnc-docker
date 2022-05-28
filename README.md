@@ -15,9 +15,6 @@ This container runs:
 * Fluxbox - a small window manager
 * Explorer.exe - to demo that it works
 
-This is a [trusted build](https://registry.hub.docker.com/u/dennispohlmann/wine-x11-novnc-docker/)
-on the Docker Hub.
-
 # Supported tags and respective `Dockerfile` links
 
 - [`stable-debian-11-latest`, `stable-debian-bullseye-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-debian-11)
