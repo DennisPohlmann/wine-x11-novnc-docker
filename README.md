@@ -19,7 +19,9 @@ This container runs:
 
 - [`stable-debian-11-latest`, `stable-debian-bullseye-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-debian-11)
 - [`stable-ubuntu-20.04-latest`, `stable-ubuntu-focal-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-20.04)
-- [`stable-fedora-35-latest`, `stable-fedora-thirty_five-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-fedora-35)
+- [`stable-ubuntu-22.04-latest`, `stable-ubuntu-jammy-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-ubuntu-22.04)
+- [`stable-fedora-36-latest`, `stable-fedora-thirty_six-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-fedora-36)
+- [`stable-fedora-37-latest`, `stable-fedora-thirty_seven-latest`](https://github.com/DennisPohlmann/wine-x11-novnc-docker/blob/master/Dockerfile.stable-latest-fedora-37)
 
 # Run It
 

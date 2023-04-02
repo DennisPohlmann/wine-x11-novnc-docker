@@ -1,4 +1,4 @@
-FROM fedora:35
+FROM fedora:37
 
 ENV HOME /root
 ENV DEBIAN_FRONTEND noninteractive
@@ -6,7 +6,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 ENV OS fedora
-ENV OSVER 35
+ENV OSVER 37
 
 RUN dnf install -y curl dnf-plugins-core fluxbox gnupg2 net-tools procps python-is-python3 supervisor tar x11vnc xdotool xorg-x11-server-Xvfb && \
     dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/${OSVER}/winehq.repo && \
